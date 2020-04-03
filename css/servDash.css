@@ -1,0 +1,435 @@
+
+::-webkit-scrollbar {
+width: 12px;
+height: 5px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #000;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #000;
+box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+}
+input:not([type]), input[type=date]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=email]:not(.browser-default), input[type=number]:not(.browser-default), input[type=password]:not(.browser-default), input[type=search]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=text]:not(.browser-default), input[type=time]:not(.browser-default), input[type=url]:not(.browser-default), textarea.materialize-textarea {
+    font-size: 1rem;
+    height: 3rem;
+    -webkit-transition: box-shadow .3s,border .3s;
+    transition: box-shadow .3s,border .3s;
+    border-radius: 0;
+    outline: 0;
+}
+
+body
+{
+    margin: 0 ;
+    padding: 0;
+    transition: all 1s;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    color: #777;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+a
+{
+  color: #777;
+}
+.marginSec
+{
+  margin-top: 15px;
+}
+/******MyPage*********/
+.myPage
+{
+  position: relative;
+  width: 100%;
+}
+.pop
+{
+  position: fixed;
+  width: 400px;
+  z-index: 2;
+  background-color: #FFF;
+  box-shadow: 2px 3px 8px #777;
+  display: none;
+  height: 100vh;
+}
+.pop2
+{
+  position: fixed;
+  width: 400px;
+  z-index: 3;
+  background-color: #FFF;
+  box-shadow: 2px 3px 8px #777;
+  display: none;
+  height: 100vh;
+}
+.allMainBody
+{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+}
+/******Apear Pop********/
+.head
+{
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.xPoint,.xPointPlus
+{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #ff4081;
+}
+.newContractH5
+{
+  line-height: 32px;
+}
+.myformRequest
+{
+
+  padding: 20px;
+  padding-top: 100px;
+}
+.myformRequest .select
+{
+  margin-top: 30px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+#sendButton
+{
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+/************** NavBar****************/
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.fa-bell-slash,.fa-users
+{
+    color: #FFF;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    letter-spacing: normal;
+    text-transform: none;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+}
+.slider
+{
+    background: linear-gradient(45deg,#303f9f,#7b1fa2)!important;
+    padding-bottom: 30px;
+}
+.hospitalH5
+{
+    color: #ddd;
+    margin-top:60px
+}
+.hopitalP
+{
+    color: #cfd8dc;
+    margin-top:20px ;
+
+}
+.Requests
+{
+  cursor: pointer;
+}
+
+/**************************Body Section *************************/
+.bodySection
+{
+    margin-top: 100px;
+}
+.contact
+{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #2196f3;
+    box-shadow: 0 0 8px 0 #2196f3;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    color: #FFF ;
+    width: 100%;
+}
+.contact1,.contact2,.contact3,.contact4
+{
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  color: #777;
+  width: 100%;
+}
+.search2
+{
+
+  margin-bottom: .5rem;
+  padding: .2rem .2rem .2rem 2.75rem;
+  border: none;
+  border-radius: .4rem;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+}
+.table
+{
+  background-color: #FFF;
+  border: none;
+  box-sizing: content-box;
+  margin-bottom: .5rem;
+  padding: .2rem .2rem .2rem 2.75rem;
+  border-radius: .4rem;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+  overflow: scroll;
+}
+table td , table th
+{
+  padding: 20px !important;
+  padding-left: 50px !important;
+}
+.left
+{
+  margin-top: -250px;
+  position: relative;
+  padding-bottom: 50px;
+}
+.trashIcon
+{
+  color: #777;
+}
+/******ReqPAge*****/
+.mainBody
+{
+  position: relative;
+  width: 100%;
+}
+.action
+{
+  width:100%;
+  position: absolute;
+  z-index:3;
+  display: none;
+}
+.reqPage
+{
+  width:100%;
+  position: absolute;
+  z-index:4;
+  display: none;
+}
+.allInfo
+{
+  width:100%;
+  position: absolute;
+  z-index:5;
+}
+/**Right Column**/
+
+.card2
+{
+    padding: 15px 15;
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.addNewAdminEmail
+{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px #333;
+    margin-bottom: 25px;
+}
+
+.cardOred2
+{
+    position: relative;
+    top: 45px;
+    left: 20px;
+    background-color: #2196f3;
+    width: 95%;
+    height: 90px;
+    z-index: 9999;
+
+}
+.cardOred2
+{
+    padding-top: 50px;
+}
+.cardOred2 h5
+{
+    color: #FFF;
+    text-align: center;
+
+}
+
+/**********New Contract Request********/
+.plusIcon
+{
+  position: absolute;
+  bottom: -30px;
+  right: 40px;
+  background-color: #ff4081;
+  transition: background-color .3s;
+  vertical-align: middle;
+  color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 18px;
+  font-size: 25px;
+  cursor: pointer;
+}
+/**** track payment ****/
+.progressBar
+{
+  counter-reset: step;
+}
+.progressBar li
+{
+  list-style: none;
+  float: left;
+  width: 20%;
+  position: relative;
+  text-align: center;
+}
+.progressBar li:before
+{
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  border-color: green;
+}
+.progressBar li.active:before
+{
+  background-color:green;
+  color:#FFF
+}
+.progressBar li:after
+{
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  top: 15px;
+  left: -50%;
+  z-index: 1;
+}
+.progressBar li.active:after
+{
+  content: none;
+}
+.progressBar li.active + li:after
+{
+  background-color: green;
+}
+
+
+@media(max-width:990px)
+{
+  table td , table th
+  {
+    padding: 20px !important;
+  }
+}
+
+
+/****Edit On Bootstrap****/
+@media (min-width: 1200px)
+{
+  .container
+  {
+      max-width: 1456px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
